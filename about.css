@@ -1,0 +1,119 @@
+/*------------------------------------------------------------------------------- ./about.css -------------------------------------------------------------------------------*/
+
+h2{
+        font-size: 2rem;
+}
+
+main p{
+        text-align: left;
+}
+
+.intro{
+        text-align: center;
+}
+
+#about{
+        border-bottom: solid 2px rgb(230,230,230,.95);
+}
+
+#about-profile {
+        max-height: 50vh;
+}
+
+#title{
+        font-size: 3rem;
+}
+
+#UCSD{
+        border-radius: 50%;
+        height: 30vh;
+        width: 30vh;
+}
+
+#UM{
+        border-radius: 50%;
+        height: 22vh;
+        width: 22vh;
+}
+
+#logos{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: -3vh;
+        margin-top: -2vw;
+}
+
+#music-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+#music-text{
+        width: 50%;
+        flex: auto;
+        margin-right: 1vh;
+        margin-left: 1.5vh;
+}
+
+#rap-video{
+        height: 281.25px;
+        width: 500px;
+        margin-bottom: 2vh;
+        margin-left: 1vh;
+        box-shadow: 0 0 20px black;
+}
+
+#video-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-right: 1vh;
+}
+
+#video-text{
+        width: 50%;
+        flex: auto;
+        margin-left: 1vh;
+        margin-right: 1.5vh;
+}
+
+#aquarius-szn{
+        height: 400px;
+        width: 400px;
+        box-shadow: 0 0 15px black;
+        margin-right: 5px;
+        margin-bottom: 3px;
+        margin-top: 8px;
+}
+
+
+/*------------------------------------------------------------------------------ Media Queries ------------------------------------------------------------------------------*/
+
+
+@media (max-width: 750px){
+        
+        #rap-video{
+                height: 225px;
+                width: 400px;
+        }
+
+}
+
+@media (max-width: 750px){
+        
+        #rap-video{
+                height: 168.75px;
+                width: 300px;
+        }
+
+        #aquarius-szn{
+                height: 300px;
+                width: 300px;
+        }
+
+}

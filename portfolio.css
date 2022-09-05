@@ -1,0 +1,60 @@
+#portfolio{
+    border-bottom: solid 2px rgb(230,230,230,.95);
+}
+
+img{
+    height: 300px;
+    width: auto;
+    box-shadow: 0 0 8px rgb(201,158,14);
+}
+
+/* main img:hover{
+    cursor: pointer;
+} */
+
+h2{
+    font-size: 2.3rem;
+}
+
+#title{
+    padding-top: 0.5rem;
+}
+
+.github{
+    display: inline-block;
+    box-shadow: none;
+    height: 3rem;
+}
+
+.git-alt{
+    display: none;
+}
+
+
+
+/*------------------------------------------------------------------------------ Media Queries ------------------------------------------------------------------------------*/
+
+
+@media (max-width: 900px){
+        
+    img{
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 700px){
+        
+    img{
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 600px){
+        
+    img{
+        height: 150px;
+    }
+
+}

@@ -1,0 +1,37 @@
+#home{
+    border-bottom: solid 2px rgb(230,230,230,.95);
+}
+
+.quote{
+        font-size: 1.8vw;
+        font-family: cursive;
+}
+
+#quote-source{
+    margin-top: 0;
+}
+
+#profile{
+    box-shadow: 0px 3px 8px rgb(00,00,00,0.6);
+    max-width: 30vh;
+}
+
+
+/*------------------------------------------------------------------------------ Media Queries ------------------------------------------------------------------------------*/
+
+
+@media (max-width: 900px){
+        
+    .quote{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (max-width: 700px){
+        
+    .quote{
+        font-size: 3vw;
+    }
+
+}
